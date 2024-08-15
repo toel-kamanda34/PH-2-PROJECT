@@ -20,7 +20,7 @@ h1 {
 }
 
 .bucket__lists {
-  padding: 40px;
+  padding: 30px;
 
 
 }
@@ -30,8 +30,8 @@ h1 {
   grid-gap: 20px;
 }
 .bucket__list__img img {
-  width: 100px;
-  height: 168px;
+  width: 130px;
+  height: 200px;
   border-radius: 4px;
 }
 .bucket__list__date {
