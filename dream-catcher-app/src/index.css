@@ -16,4 +16,44 @@ code {
 h1 {
   font-size: 14px;
   font-weight: 400;
+
+}
+
+.bucket__lists {
+  padding: 40px;
+  border: 1px solid green;
+
+}
+.bucket__list{
+  display: grid;
+  grid-template-columns: 125px 1fr;
+  grid-gap: 20px;
+}
+.bucket__list__img img {
+  width: 100px;
+  height: 168px;
+  border-radius: 4px;
+}
+.bucket__list__date {
+font-size: 12px;
+font-weight: bold;
+margin-bottom: 8px;
+}
+.bucket__list__summary {
+  font-size: 12px;
+}
+.bucket__list__location img {
+  width: 30px;
+  height: auto;
+
+}
+
+.bucket__list__location {
+  display: flex;
+}
+.bucket__list__location__country {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  padding-top: opx;
 }

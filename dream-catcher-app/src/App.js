@@ -11,14 +11,14 @@ function App() {
       <h1> My Bucket List</h1>
       </header>
 
-      <main class="bucket__list">
+      <main class="bucket__lists">
         <section class="bucket__list">
           <div class="bucket__list__img">
-            <img src={logo}></img>
+            <img src={logo} alt="pin"></img>
           </div>
           <div class="bucket__list__details">
            <div class="bucket__list__location">
-            <img src={pin}></img>
+            <img src={pin } alt="logo"></img>
             <p>Location</p>
            </div>
            <h2 class="bucket__list__header">Location header</h2>
