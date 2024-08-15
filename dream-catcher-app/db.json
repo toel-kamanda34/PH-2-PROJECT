@@ -1,6 +1,7 @@
 {
     "data":[
-    {
+    { 
+      "index":1,
       "title": "Travel to the Northern Lights",
       "location": "Arctic Circle",
       "startDate": "10 Dec, 2025",
@@ -10,6 +11,7 @@
       "completed": false
     },
     {
+      "index":2,
       "title": "Go on an African Safari",
       "location": "Savannas and Grasslands of Africa",
       "startDate": "15 Jun, 2026",
@@ -19,6 +21,7 @@
       "completed": false
     },
     {
+      "index":3,
       "title": "Learn to play the piano",
       "location": "Local Music School",
       "startDate": "01 Jan, 2024",
@@ -28,6 +31,7 @@
       "completed": false
     },
     {
+      "index":4,
       "title": "Scuba dive in the Great Barrier Reef",
       "location": "Queensland, Australia",
       "startDate": "10 Mar, 2025",
@@ -37,6 +41,7 @@
       "completed": false
     },
     {
+      "index":5,
       "title": "Attend a music festival on every continent",
       "location": "Various locations around the world",
       "startDate": "01 Jan, 2027",
