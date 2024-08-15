@@ -21,7 +21,7 @@ h1 {
 
 .bucket__lists {
   padding: 40px;
-  border: 1px solid green;
+
 
 }
 .bucket__list{
@@ -57,3 +57,11 @@ margin-bottom: 8px;
   letter-spacing: 0.2em;
   padding-top: opx;
 }
+.footer {
+  background: #F55A5A;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
