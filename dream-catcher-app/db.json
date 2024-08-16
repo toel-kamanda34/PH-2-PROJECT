@@ -1,54 +1,68 @@
 {
-    "data":[
-    { 
-      "index":1,
+  "data": [
+    {
+      "index": 1,
       "title": "Travel to the Northern Lights",
       "location": "Arctic Circle",
       "startDate": "10 Dec, 2030",
       "endDate": "20 Dec, 2030",
       "description": "Witness the breathtaking display of the Aurora Borealis in the Arctic Circle, and experience the magic of the night sky. This 10-day journey will take me to various locations within the Arctic Circle, including parts of Norway, Sweden, Finland, Iceland, and Canada. The Northern Lights, caused by solar wind disturbances in the magnetosphere, create a mesmerizing dance of green, pink, and purple hues across the night sky. I am looking forward to the guided Northern Lights tours, photography workshops, dog sledding, ice fishing, and visiting the local Sami communities.Remember to carry extreme cold weather clothing, camera with tripod, wide-angle lens, and hand/foot warmers. Save roughly $5000 USD, this will cover flights, accommodation, some meals, and guided tours.I will need to Research best viewing times and locations, learn night photography basics, and prepare for extreme cold.",
       "imageUrl": "https://images.unsplash.com/photo-1483347756197-71ef80e95f73",
-      "completed": false
+      "completed": false,
+      "id": "b55a"
     },
     {
-      "index":2,
+      "index": 2,
       "title": "Go on an African Safari",
       "location": "Serengeti (Tanzania), Masai Mara (Kenya), Kruger (South Africa), and Chobe (Botswana)",
       "startDate": "15 Jun, 2027",
       "endDate": "25 Jun, 2027",
-      "description":"My oh my ,i cant wait to  get up close and personal with the lions, elephants, and giraffes. This 10-day safari adventure will span multiple national parks and reserves across Eastern and Southern Africa, including Serengeti (Tanzania), Masai Mara (Kenya), Kruger (South Africa), and Chobe (Botswana).I will be tagging my friend so Morocco will be our final destination.Looking forward to Observing diverse wildlife in their natural habitats, including the 'Big Five' and numerous other species. We will definetely have fun with the game drives in 4x4 vehicles, hot air balloon rides, and it goes without saying the sundowner experiences. Required gear: neutral-colored breathable clothing, wide-brimmed hat, sturdy walking shoes, binoculars, and camera with telephoto lens. Estimated cost: $7500 USD, covering international and local flights, luxury lodge accommodations, all meals, guide fees, and park entrance fees. my to do list before this trip : Get necessary vaccinations, purchase travel insurance, learn about local customs, and practice wildlife photography techniques.",
+      "description": "My oh my ,i cant wait to  get up close and personal with the lions, elephants, and giraffes. This 10-day safari adventure will span multiple national parks and reserves across Eastern and Southern Africa, including Serengeti (Tanzania), Masai Mara (Kenya), Kruger (South Africa), and Chobe (Botswana).I will be tagging my friend so Morocco will be our final destination.Looking forward to Observing diverse wildlife in their natural habitats, including the 'Big Five' and numerous other species. We will definetely have fun with the game drives in 4x4 vehicles, hot air balloon rides, and it goes without saying the sundowner experiences. Required gear: neutral-colored breathable clothing, wide-brimmed hat, sturdy walking shoes, binoculars, and camera with telephoto lens. Estimated cost: $7500 USD, covering international and local flights, luxury lodge accommodations, all meals, guide fees, and park entrance fees. my to do list before this trip : Get necessary vaccinations, purchase travel insurance, learn about local customs, and practice wildlife photography techniques.",
       "imageUrl": "https://images.unsplash.com/photo-1516426122078-c23e76319801",
-      "completed": false
+      "completed": false,
+      "id": "114d"
     },
     {
-      "index":3,
+      "index": 3,
       "title": "Learn to play the piano",
       "location": "Kenya Conservatoire of Music, Nairobi, Kenya",
       "startDate": "01 Jan, 2026",
       "endDate": "31 Dec, 2026",
       "description": "Master the art of playing the piano, and be able to perform a beautiful piece of music in front of an audience. This year-long journey will take place at Kenya Conservatoire of Music, supplemented by online resources. I am excited to develop skills from basic finger exercises to complex pieces, understanding music theory, rhythm, and emotion in performance.It has been a childhood dream that upto now i cant explain why i haven't executed it yet. Milestones include learning basic techniques, mastering scales, reading sheet music fluently, performing simple classical pieces, understanding music theory fundamentals, learning improvisation, and giving a public recital (I am sure the first time will be terrible). Having my own Piano, Setting aside daily practice time, and recording myself playing will be awesome.I will need to confirm the cost for this",
       "imageUrl": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0",
-      "completed": false
+      "completed": false,
+      "id": "a1ce"
     },
     {
-      "index":4,
+      "index": 4,
       "title": "Scuba dive in the Great Barrier Reef",
       "location": "Queensland, Australia",
       "startDate": "10 Mar, 2034",
       "endDate": "20 Mar, 2034",
       "description": "I am not planning to leave this world befor exploring the vibrant coral and marine life of the world's largest coral reef system, and discovering the beauty of the underwater world. This 10-day adventure will take me to various dive sites along the UNESCO World Heritage-listed Great Barrier Reef. Exotic fish species, sea turtles, reef sharks, and  whales here i come.Someone should help me get  a scuba diving certification, mask, fins, snorkel, wetsuit, underwater camera, and reef-safe sunscreen. Estimated cost: $4500 USD only.Toel ,make this happen.In Preparation for this trip: Ensure diving certification is current, review safety procedures, practice underwater photography, and learn about marine life identification.",
       "imageUrl": "https://images.unsplash.com/photo-1682687982501-1e58ab814714",
-      "completed": false
+      "completed": false,
+      "id": "f321"
     },
     {
-      "index":5,
+      "index": 5,
       "title": "Attend a music festival on every continent",
       "location": "Various locations around the world",
       "startDate": "01 Jan, 2037",
       "endDate": "31 Dec, 2037",
       "description": "A trip around the world experiencing the unique music and culture of each continent, and dance the night away with fellow music lovers,what else can i ask for ?. This year-long musical odyssey will take me to renowned festivals across all seven continents, including Coachella (North America), Rock in Rio (South America), Glastonbury (Europe), Festival au Désert (Africa), Fuji Rock Festival (Asia), Splendour in the Grass (Australia), and the Antarctic Ice Music Festival. Estimated cost: $20,000 USD, covering flights, accommodation, festival tickets, and travel insurance. Remember to: Research visa requirements, book accommodations and transportation in advance, create a detailed itinerary, learn basic local phrases, and keep a festival journal to document experiences.",
       "imageUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea",
-      "completed": false
+      "completed": false,
+      "id": "e48f"
+    },
+    {
+      "id": "56b6",
+      "title": "Hike the Inca Trail to Machu Picchu\",",
+      "location": "Cusco, Peru",
+      "startDate": "2025-01-14",
+      "endDate": "2024-08-06",
+      "description": "Embark on a 7-day trek along the ancient Inca Trail, leading to the breathtaking ruins of Machu Picchu. This adventure will take me through diverse ecosystems, from high mountain passes to lush cloud forests. The highlight will be reaching the Sun Gate at sunrise and witnessing the mystical ruins of Machu Picchu emerge from the morning mist. I'll need to prepare for this physically demanding journey by training for high-altitude hiking and ensuring I have proper gear. Estimated cost: $3000 USD, covering flights, permits, guides, and accommodation.",
+      "imageUrl": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"
     }
   ]
 }
