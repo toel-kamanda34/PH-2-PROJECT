@@ -5,7 +5,7 @@ export default function Header() {
     <div>
        <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
-      <h1> My Bucket List</h1>
+      <h1 className='App-h1'> My Bucket List</h1>
       </header>
     </div>
   )
