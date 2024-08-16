@@ -27,9 +27,12 @@ This  React app lets you keep track of all the cbucket list items! You can add a
 2. Click "Complete" when you've crushed a goal
 3. Flex on the "Completed Adventures" page
 
+
 ## The nitty-gritty 
 - `src/` - has all the diles
 - `components/` - All the React building blocks
 - `App.js` - The main component
 - `App.css` - styles everything
 
+## The Deployed Link
+https://mydreamcatcger24.netlify.app/#completed-section
