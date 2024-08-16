@@ -65,3 +65,94 @@ margin-bottom: 8px;
   margin-top: auto;
 }
 
+.bucket-list-form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.bucket-list-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bucket-list-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.bucket-list-form input,
+.bucket-list-form textarea {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+}
+
+.bucket-list-form input:focus,
+.bucket-list-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #f55a5a;
+  transform: translateY(-2px);
+}
+
+.bucket-list-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.bucket-list-form button {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #f55a5a;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.bucket-list-form button:hover {
+  background-color: #e04040;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bucket-list-form button:active {
+  transform: translateY(0);
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.bucket-list-form-container::before {
+  content: '🌟';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  font-size: 3rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+.bucket-list-form-container::after {
+  content: '✈️';
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  font-size: 3rem;
+  animation: float 3s ease-in-out infinite 1.5s;
+}
