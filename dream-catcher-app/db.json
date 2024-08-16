@@ -8,7 +8,7 @@
       "endDate": "20 Dec, 2030",
       "description": "Witness the breathtaking display of the Aurora Borealis in the Arctic Circle, and experience the magic of the night sky. This 10-day journey will take me to various locations within the Arctic Circle, including parts of Norway, Sweden, Finland, Iceland, and Canada. The Northern Lights, caused by solar wind disturbances in the magnetosphere, create a mesmerizing dance of green, pink, and purple hues across the night sky. I am looking forward to the guided Northern Lights tours, photography workshops, dog sledding, ice fishing, and visiting the local Sami communities.Remember to carry extreme cold weather clothing, camera with tripod, wide-angle lens, and hand/foot warmers. Save roughly $5000 USD, this will cover flights, accommodation, some meals, and guided tours.I will need to Research best viewing times and locations, learn night photography basics, and prepare for extreme cold.",
       "imageUrl": "https://images.unsplash.com/photo-1483347756197-71ef80e95f73",
-      "completed": true,
+      "completed": false,
       "id": "b55a"
     },
     {
@@ -52,7 +52,7 @@
       "endDate": "31 Dec, 2037",
       "description": "A trip around the world experiencing the unique music and culture of each continent, and dance the night away with fellow music lovers,what else can i ask for ?. This year-long musical odyssey will take me to renowned festivals across all seven continents, including Coachella (North America), Rock in Rio (South America), Glastonbury (Europe), Festival au Désert (Africa), Fuji Rock Festival (Asia), Splendour in the Grass (Australia), and the Antarctic Ice Music Festival. Estimated cost: $20,000 USD, covering flights, accommodation, festival tickets, and travel insurance. Remember to: Research visa requirements, book accommodations and transportation in advance, create a detailed itinerary, learn basic local phrases, and keep a festival journal to document experiences.",
       "imageUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea",
-      "completed": false,
+      "completed": true,
       "id": "e48f"
     },
     {
@@ -63,7 +63,7 @@
       "endDate": "2024-08-06",
       "description": "Embark on a 7-day trek along the ancient Inca Trail, leading to the breathtaking ruins of Machu Picchu. This adventure will take me through diverse ecosystems, from high mountain passes to lush cloud forests. The highlight will be reaching the Sun Gate at sunrise and witnessing the mystical ruins of Machu Picchu emerge from the morning mist. I'll need to prepare for this physically demanding journey by training for high-altitude hiking and ensuring I have proper gear. Estimated cost: $3000 USD, covering flights, permits, guides, and accommodation.",
       "imageUrl": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
-      "completed": false
+      "completed": true
     }
   ]
 }
