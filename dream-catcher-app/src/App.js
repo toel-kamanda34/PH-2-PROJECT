@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   const fetchData = () => {
-    fetch('http://localhost:3000/data')
+    fetch('https://bucketlist-server.onrender.com/data')
       .then(response => response.json())
       .then(data => {
         setBucketListData(data);
@@ -30,7 +30,7 @@ function App() {
   };
  
   const handleAddItem = (newItem) => {
-    fetch('http://localhost:3000/data', {
+    fetch('https://bucketlist-server.onrender.com/data', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -57,7 +57,7 @@ function App() {
     setBucketListData(updatedBucketList);
     setCompletedData(updatedBucketList.filter(item => item.completed));
 
-    fetch(`http://localhost:3000/data/${updatedBucketList[index].id}`, {
+    fetch(`https://bucketlist-server.onrender.com/data/${updatedBucketList[index].id}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
