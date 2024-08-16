@@ -62,7 +62,8 @@
       "startDate": "2025-01-14",
       "endDate": "2024-08-06",
       "description": "Embark on a 7-day trek along the ancient Inca Trail, leading to the breathtaking ruins of Machu Picchu. This adventure will take me through diverse ecosystems, from high mountain passes to lush cloud forests. The highlight will be reaching the Sun Gate at sunrise and witnessing the mystical ruins of Machu Picchu emerge from the morning mist. I'll need to prepare for this physically demanding journey by training for high-altitude hiking and ensuring I have proper gear. Estimated cost: $3000 USD, covering flights, permits, guides, and accommodation.",
-      "imageUrl": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"
+      "imageUrl": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+      "completed": false
     }
   ]
 }

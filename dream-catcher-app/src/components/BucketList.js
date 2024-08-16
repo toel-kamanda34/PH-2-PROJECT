@@ -18,6 +18,9 @@ function BucketList(props) {
            <h2 class="bucket__list__header">{props.title}</h2>
            <p class="bucket__list__date">{props.startDate} - {props.endDate}</p>
            <div class="bucket__list__summary"><p>{props.description}</p></div>
+           {!props.completed && (
+              <button onClick={props.onComplete} className="complete__button">Complete</button>
+            )}
           </div>
         </section>
       </main>

@@ -10,7 +10,7 @@ import './App.css';
 function App() {
    // State to hold the fetched data
    const [bucketListData, setBucketListData] = useState([]);
-
+   const [completedData, setCompletedData] = useState([]);
    useEffect(() => {
     fetchData();
   }, []);
@@ -42,7 +42,21 @@ function App() {
         console.error('Error adding new item:', error);
       });
   };
- 
+  const handleCompleteItem = (index) => {
+    const updatedBucketList = [...bucketListData];
+    updatedBucketList[index].completed = true;
+
+    setBucketListData(updatedBucketList);
+    setCompletedData(updatedBucketList.filter(item => item.completed));
+
+    fetch(`http://localhost:3000/data/${updatedBucketList[index].id}`, {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ completed: true }),
+    }).catch(error => console.error('Error updating item:', error));
+  };
   return (
     <div className="App">
       <Header />
@@ -57,8 +71,25 @@ function App() {
             endDate={item.endDate}
             description={item.description}
             imageUrl={item.imageUrl}
+            onComplete={() => handleCompleteItem(index)}
+            completed={item.completed}
         />
       ))}
+      </div>
+      <h2>Completed Adventures</h2>
+      <div className="completed__lists">
+        {completedData.map((item, index) => (
+          <BucketList 
+            key={index} 
+            title={item.title} 
+            location={item.location}
+            startDate={item.startDate}
+            endDate={item.endDate}
+            description={item.description}
+            imageUrl={item.imageUrl}
+            completed={true}
+          />
+        ))}
       </div>
       <Footer />
     </div>
